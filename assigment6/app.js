@@ -1,4 +1,4 @@
-//chapter13
+//chapter13-16
 
 //answer1
 let studentNames = [];
@@ -50,9 +50,13 @@ console.log(strings[3]);
 let numbers = [1, 2, 3, 4, 5];
 
 console.log(numbers[0]); 
+
 console.log(numbers[1]); 
-console.log(numbers[2]); 
-console.log(numbers[3]); 
+
+console.log(numbers[2]);
+
+console.log(numbers[3]);
+
 console.log(numbers[4]); 
 
 //answer5
@@ -60,8 +64,11 @@ console.log(numbers[4]);
 let boolean = [true, false, true, false];
 
 console.log(boolean[0]); 
+
 console.log(boolean[1]); 
-console.log(boolean[2]);  
+
+console.log(boolean[2]); 
+
 console.log(boolean[3]); 
 
 //answer6
@@ -77,8 +84,41 @@ console.log(mixed);
 
 //answer7
 
+let education = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"]
+
+console.log("Qualifications",education);
+
+//answer10
+
+let studentScores = [85, 72, 93, 65, 77];
+
+console.log("Original scores:", studentScores);
+
+studentScores.sort((a, b) => a - b);
+
+console.log("Sorted scores:", studentScores);
+
+//answer11
 
 
+let cities = ["Gwader", "pasani", "Turbat", "Ormara", "Winder"];
+
+console.log("Original cities array:", cities);
+
+let selectedCities = [];
+
+selectedCities = cities.slice(0, 3); 
+
+console.log("Selected cities array:", selectedCities);
+
+//answer12
+
+
+var arr = ["This", "is", "my", "cat"];
+
+var singleString = arr.join(" ");
+
+console.log("Array:", singleString);
 
 
 
