@@ -1,0 +1,14 @@
+#color-box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+margin-left: 45%;
+margin-bottom: 40px;
+
+  }
+
+  body{
+    text-align: center;
+  }
+
+  
