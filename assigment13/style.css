@@ -1,0 +1,29 @@
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#watch_img {
+    height: 300px;
+    width: 300px;
+}
+
+.otherimages {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    margin-top: 8vh;
+}
+
+.moreimg {
+    padding: 15px;
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+    
+}
