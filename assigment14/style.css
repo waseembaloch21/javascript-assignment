@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvfJeoAIWb4Wg31BDA9PTuAfK4XzYNAQb-5xXrgtps6g&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.heading{
+    font-size: 30px;
+}
+
+
+button{
+    width: 50px;
+    height: 30px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
