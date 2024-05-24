@@ -1,0 +1,112 @@
+:root {
+    --theme: #374905;
+    --text: wheat;
+
+}
+
+body {
+    background-color: #1a1a1a;
+    color: transparent;
+    margin: 0;
+    padding: 10px;
+    opacity: 0.7;
+    background-image: url(https://img.freepik.com/free-vector/abstract-technology-particle-background_23-2148426649.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--text);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 5px 5px 5px 2px var(--theme);
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px 0px var(--theme);
+    background-color: black;
+    border: 2px solid #666;
+    padding: 6px;
+    color: #fff;
+    font-size: 19px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid var(--theme);
+}
+
+.buttons {
+    display: flex;
+    gap: 100px;
+}
+
+.btn {
+    height: 30px;
+    border-radius: 50px;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    background-color: var(--theme);
+
+}
+
+.btn:hover {
+    background-color: #87b607;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid #666;
+    box-shadow: 1px 1px 1px 1px var(--theme);
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.box>span {
+    display: block;
+    text-align: center;
+}
+
+th {
+    color: var(--text);
+    border: 2px solid #5c7909;
+}
+
+table,
+tbody {
+    border: 2px solid #5c7909;
+    width: 100%;
+    text-align: center;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--theme);
+    height: 20px;
+}
