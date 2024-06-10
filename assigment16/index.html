@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Local storage</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center; text-decoration: underline; text-decoration-color: bisque;">LOCAL STORAGE</h1>
+
+    <div id="login_container" style="display: grid; place-items: center;">
+
+        <div class="form-box">
+            <div class="form">
+                <span class="title">Sign up</span>
+                <span class="subtitle">Create a free account with your email.</span>
+                <div class="form-container">
+                    <input type="text" id="fullName" class="input" placeholder="Your Name">
+                    <input type="email" id="email" class="input" placeholder="Email">
+                    <input type="password" id="password" class="input" placeholder="Password">
+                </div>
+                <button onclick="loginuser()">Sign up</button>
+            </div>
+            <div class="form-section">
+                <p>Have an account? <a href="">Log in</a> </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="home_container">
+        <div class="container">
+            <h1>Hello, </h1>
+            <span>
+                <p id="user_email"></p>
+
+                <button onclick="logout()" class="btntwo">Logout</button>
+
+            </span>
+
+        </div>
+    </div>
+
+
+    <div>
+        <div>
+            <textarea style="margin-top: 2%;" name="" id="note" cols="60">ADD YOUR NOTES HERE</textarea>
+            <div>
+                <button onclick="submitnote()" class="btnthree">Save</button>
+            </div>
+
+            <ul id="list">
+
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
