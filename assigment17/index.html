@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Search and Filter</title>
+</head>
+
+<body>
+    <header>
+        <h1>Product Search and Filter</h1>
+        <input type="text" id="searchBar" placeholder="Search for products..." onkeyup="searchProducts()">
+    </header>
+
+    <aside>
+        <h2>Filter by Price</h2>
+        <button onclick="filterByPrice(100)">Less than $100</button>
+        <button onclick="filterByPrice(200)">Less than $200</button>
+        <button onclick="filterByPrice(300)">Less than $300</button>
+        <button onclick="filterByPrice(400)">Less than $400</button>
+        <button onclick="filterByPrice(500)">Less than $500</button>
+    </aside>
+
+    <main id="productContainer"></main>
+ 
+    
+    <script src="app.js"></script>
+</body>
+</html>
