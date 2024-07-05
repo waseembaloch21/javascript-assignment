@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FireBase Authentication</title>
+</head>
+
+<body>
+      <div id="auth_container">
+    <div class="login-box">
+      <form>
+        <h1>Create Account</h1>
+          <div class="user-box">
+            <input type="text" name="" required="" id="signup_Email">
+            <label>Email</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required=""  id="signup_Password">
+            <label>Password</label>
+          </div><center>
+          <a href="#" id="signup_btn">
+            Create Account
+             <span></span>
+          </a></center>
+        </form>
+      </div>
+<!-- part2 -->
+      <div class="login-box">
+        <form>
+          <h1>Sign in to your Account</h1>
+            <div class="user-box">
+              <input type="text" name="" required="" id="signIn_Email">
+              <label>Email</label>
+            </div>
+            <div class="user-box">
+              <input type="password" name="" required=""  id="signIn_Password">
+              <label>Password</label>
+            </div><center>
+            <a href="#" id="signIn_btn">
+                   signIn
+               <span></span>
+            </a></center>
+          </form>
+        </div>
+      </div>
+
+        <div id="user_container">
+          <h1 id="user_email"></h1>
+          <button id="Logout_btn">Logout</button>
+        </div>
+    
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
