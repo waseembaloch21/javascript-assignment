@@ -36,7 +36,7 @@ for (let i = 1; i <= 5; i++) {
 //answer5
 
 let numbers = prompt("Enter a number");
-for (let i = 1; i <= 10; i++) { 
+for (let i = 1; i <= 20; i++) { 
     let product = numbers * i;
     document.write(numbers + " * " + i + " = " + product,"<br>");
 }
