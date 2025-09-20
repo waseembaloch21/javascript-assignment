@@ -24,8 +24,6 @@ for (let i = 1; i <= 15; i++) {
 }
 
 //answer4
-
-
 let number = 5;
 let factorial = 1;
 for (let i = 1; i <= 5; i++) {
